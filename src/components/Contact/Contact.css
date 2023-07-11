@@ -22,6 +22,11 @@
     align-items: center;
     
 }
+.btn{
+    border-color: rgb(132, 218, 233);
+    border: 1px;
+    border-radius: 3px;
+}
 
 .c-right .user{
     width: 20rem;
@@ -34,7 +39,7 @@
 }
 
 textarea{
-    height: 4rem!important;
+    height: 8rem!important;
 }
 
 .c-blur1{

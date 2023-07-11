@@ -2,6 +2,7 @@ import React, { useContext, useRef, useState } from "react";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
 import { themeContext } from "../../Context";
+import { Link } from "react-scroll";
 const Contact = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -45,11 +46,14 @@ const Contact = () => {
       </div>
       {/* right side form */}
       <div className="c-right">
-        <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name="user_name" className="user"  placeholder="Name"/>
-          <input type="email" name="user_email" className="user" placeholder="Email"/>
-          <textarea name="message" className="user" placeholder="Message"/>
-          <input type="submit" value="Send" className="button"/>
+        <form >
+          <input type="text" name="user_name" className="user"  placeholder="wecome to our agency tecno graphy" disabled/>
+          <input type="text" name="user_email" className="user" placeholder="we can  provide  you  best srvice in the wold" disabled/>
+          <textarea name="text" className="user" placeholder="we can provide seo service. our agency  seo staff member is 79.
+          we can  provide web development service, our web  developer is 123 member. and difital marckting member is 65" disabled/>
+         <Link to="https://www.youtube.com/watch?v=c2gR1zBuSV0&ab_channel=SanjeetCoder" smooth={true} spy={true}>
+          <button className="button i-button">work with</button>
+        </Link>
           <span>{done && "Thanks for Contacting me"}</span>
           <div
             className="blur c-blur1"
