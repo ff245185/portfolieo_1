@@ -27,23 +27,24 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
-          <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
-          <span>Andrew Thomas</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Welcome to our</span>
+          <span>Tecno Graphy Agency</span>
           <span>
-            Frontend Developer with high level of experience in web designing
-            and development, producting the Quality work
+            our agency provide web Developement, seo, and digital markting service.
+            we can help to build your life.
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
-          <button className="button i-button">Hire me</button>
+          <button className="button i-button">work with</button>
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <img src={Github} alt="" />
+          <Link to=""><img src={Github} alt="" /></Link>
           <img src={LinkedIn} alt="" />
           <img src={Instagram} alt="" />
         </div>
       </div>
+       
       {/* right image side */}
       <div className="i-right">
         <img src={Vector1} alt="" />

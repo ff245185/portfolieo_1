@@ -24,12 +24,14 @@ const Services = () => {
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
-        <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
+        <span style={{ color: darkMode ? "white" : "" }}>Our Agency</span>
         <span>services</span>
         <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
+        We will use the latest web <br/> technologies and industry best  practices to ensure a seamless user experience 
+        across different devices and platforms.
           <br />
-          ispum is simpley dummy text of printing
+          Our SEO specialists will conduct thorough <br/> research to identify the most relevant keywords and optimize
+           your <br/> website's content to improve search engine rankings.
         </spane>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
