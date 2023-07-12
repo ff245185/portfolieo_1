@@ -14,8 +14,7 @@ const Portfolio = () => {
     <div className="portfolio" id="portfolio">
       {/* heading */}
       <span style={{color: darkMode?'white': ''}}>Recent Projects</span>
-      <span>Portfolio</span>
-
+      <button  className="demos"><a href="">Viwe All demo</a></button>
       {/* slider */}
       <Swiper
         spaceBetween={30}

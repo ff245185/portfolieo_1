@@ -39,9 +39,10 @@ const navbar = () => {
             </li>
           </ul>
         </div>
-        <Link to="/profile" spy={true} smooth={true}>
-        <button className="button n-button">Contact</button>
-        </Link>
+        
+        {/* <button className="button n-button">Contact</button> */}
+        <a className="button" href="https://www.youtube.com/watch?v=AlNF_ED9s7Y&ab_channel=ThapaTechnical">Contact</a>
+        
       </div>
     </div>
   );

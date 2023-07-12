@@ -51,9 +51,7 @@ const Contact = () => {
           <input type="text" name="user_email" className="user" placeholder="we can  provide  you  best srvice in the wold" disabled/>
           <textarea name="text" className="user" placeholder="we can provide seo service. our agency  seo staff member is 79.
           we can  provide web development service, our web  developer is 123 member. and difital marckting member is 65" disabled/>
-         <Link to="https://www.youtube.com/watch?v=c2gR1zBuSV0&ab_channel=SanjeetCoder" smooth={true} spy={true}>
-          <button className="button i-button">work with</button>
-        </Link>
+        
           <span>{done && "Thanks for Contacting me"}</span>
           <div
             className="blur c-blur1"

@@ -6,6 +6,17 @@
   height: 70vh;
 
 }
+.demos{
+  width: 329px;
+  height: 133px;
+  border-radius: 9px;
+  text-align: center;
+  color: white;
+  font-size: larger;
+  
+ background-color: rgb(241, 119, 37)
+  
+}
 /* heading */
 .portfolio span:nth-of-type(1) {
   color: var(--black);
