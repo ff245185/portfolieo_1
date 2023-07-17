@@ -25,6 +25,9 @@ const navbar = () => {
               </Link>
             </li>
             <li>
+             <a href="https://www.youtube.com/shorts/-A5KpKA1KwQ">Project</a>
+            </li>
+            <li>
               <Link to="works" spy={true} smooth={true}>
                 Experience
               </Link>

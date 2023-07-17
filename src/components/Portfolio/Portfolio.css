@@ -17,6 +17,11 @@
  background-color: rgb(241, 119, 37)
   
 }
+.demos:hover{
+  background-color: rgb(241, 207, 53);
+  color: black;
+  font-size: larger;
+}
 /* heading */
 .portfolio span:nth-of-type(1) {
   color: var(--black);
