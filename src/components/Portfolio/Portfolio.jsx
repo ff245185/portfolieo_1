@@ -14,7 +14,7 @@ const Portfolio = () => {
     <div className="portfolio" id="portfolio">
       {/* heading */}
       <span style={{color: darkMode?'white': ''}}>Recent Projects</span>
-      <button  className="demos"><a href="">Viwe All demo</a></button>
+      <a  className="demos" target="_blank" href="https://64b68182bbabb413876a6408--benevolent-dolphin-6d3f7a.netlify.app/demop">Viwe All demo</a>
       {/* slider */}
       <Swiper
         spaceBetween={30}

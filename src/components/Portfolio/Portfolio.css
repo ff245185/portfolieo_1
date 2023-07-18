@@ -8,8 +8,9 @@
 }
 .demos{
   width: 329px;
-  height: 133px;
+  height: 100px;
   border-radius: 9px;
+  text-align: center;
   text-align: center;
   color: white;
   font-size: larger;

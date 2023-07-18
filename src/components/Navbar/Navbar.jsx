@@ -25,7 +25,10 @@ const navbar = () => {
               </Link>
             </li>
             <li>
-             <a href="https://www.youtube.com/shorts/-A5KpKA1KwQ">Project</a>
+             <a target="_blank" href="https://64b68182bbabb413876a6408--benevolent-dolphin-6d3f7a.netlify.app/demop">Project</a>
+            </li>
+            <li>
+             <a  target="_blank" href="https://64b68182bbabb413876a6408--benevolent-dolphin-6d3f7a.netlify.app/demoss">SS</a>
             </li>
             <li>
               <Link to="works" spy={true} smooth={true}>
@@ -44,7 +47,7 @@ const navbar = () => {
         </div>
         
         {/* <button className="button n-button">Contact</button> */}
-        <a className="button" href="https://www.youtube.com/watch?v=AlNF_ED9s7Y&ab_channel=ThapaTechnical">Contact</a>
+        <a  target="_blank" className="button" href="https://64b68182bbabb413876a6408--benevolent-dolphin-6d3f7a.netlify.app/contact">Contact</a>
         
       </div>
     </div>
